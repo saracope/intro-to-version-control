@@ -6,6 +6,11 @@ GitHub is a Git repository hosting service, but it adds many of its own features
 
 The workshop will be a mix of lecture and hands-on exercises. 
 
+**Instructor**
+Sara Cope
+[@saracope](https://github.com/saracope) on Github
+[@sarassassin](https://twitter.com/sarassassin) on Twitter
+
 **Topics covered**
 
 * Command line basics
@@ -24,6 +29,9 @@ Available on [GitHub](/#/)
 
 **Class connection**
 Join us on [Slack](bit.ly/gdi-dayton-slack), join the 'class--versioncontrol' channel
+
+**Social media**
+GDI Dayton on [Twitter](https://twitter.com/gdidayton), [Instagram](https://twitter.com/gdidayton), [Instagram](https://www.instagram.com/gdidayton/)
 
 **Exercises**
 
@@ -47,7 +55,7 @@ Join us on [Slack](bit.ly/gdi-dayton-slack), join the 'class--versioncontrol' ch
 
 
 
-### Full setup
+### Full setup (this project)
 
 Some reveal.js features, like external Markdown and speaker notes, require that presentations run from a local web server. The following instructions will set up such a server as well as all of the development tasks needed to make edits to the reveal.js source code.
 
