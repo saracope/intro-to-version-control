@@ -382,11 +382,22 @@ $ git status</code></pre>
           <h2>Tracking Changes</h3>
         </section>
 
+        <!-- Git Structure -->
         <section>
-          <h3>Tracking States in Git</h3>
-          <p>As you make changes in your repo, you can tell Git how to treat those changes.</p>
-          <img src="images/three_stages_commit.png" style="height:550px;"/>
+          <h3>The Magical Realms of Git</h3>
+          <p>Each of the states of Git corresponds to an area of the Git repo, so here's some vocab:</p>
+          <img src="images/git_staging.png" />
         </section>
+
+        <section>
+          <h3>The Magical Realms of Git</h3>
+          <ul>
+            <li><span class="green">Working directory/tree</span>: The current version of your project where you are making changes (which is reflected in your code editor)</li>
+            <li><span class="green">Staging Area</span>: The place where you stage your files when you are readying them to commit</li>
+            <li><span class="green">Repository</span>: When you commit, Git permanently saves only the changes from your staging area to the repo's memory</li>
+          </ul>
+        </section>
+        
         <section>
           <h3>Modify a file - do it with me!</h3>
           <ol>
@@ -534,22 +545,6 @@ $ git commit -m "Add capitalization function for header text"
         <section>
           <h2>Commit Exercise - Do It Yourself!</h2>
           <a href="./commit_exercise.html" target="_blank">Click here for the exercise!</a>
-        </section>
-
-        <!-- Git Structure -->
-        <section>
-          <h3>The Magical Realms of Git</h3>
-          <p>Each of the states of Git corresponds to an area of the Git repo, so here's some vocab:</p>
-          <img src="images/git_staging.png" />
-        </section>
-
-        <section>
-          <h3>The Magical Realms of Git</h3>
-          <ul>
-            <li><span class="green">Working directory/tree</span>: The current version of your project where you are making changes (which is reflected in your code editor)</li>
-            <li><span class="green">Staging Area</span>: The place where you stage your files when you are readying them to commit</li>
-            <li><span class="green">Repository</span>: When you commit, Git permanently saves only the changes from your staging area to the repo's memory</li>
-          </ul>
         </section>
        
         <!-- Undoing changes -->
