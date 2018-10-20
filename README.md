@@ -7,9 +7,10 @@ GitHub is a Git repository hosting service, but it adds many of its own features
 The workshop will be a mix of lecture and hands-on exercises. 
 
 **Instructor**
-Sara Cope
-[@saracope](https://github.com/saracope) on Github
-[@sarassassin](https://twitter.com/sarassassin) on Twitter
+Sara 
+
+* [@saracope](https://github.com/saracope) on Github
+* [@sarassassin](https://twitter.com/sarassassin) on Twitter
 
 **Topics covered**
 
