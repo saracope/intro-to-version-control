@@ -35,7 +35,7 @@ Join us on [Slack](bit.ly/gdi-dayton-slack), join the 'class--versioncontrol' ch
 
 **Social media**
 
-GDI Dayton on [Twitter](https://twitter.com/gdidayton), [Instagram](https://twitter.com/gdidayton), [Instagram](https://www.instagram.com/gdidayton/)
+GDI Dayton on [Twitter](https://twitter.com/gdidayton), [Facebook](https://www.facebook.com/gdidayton), [Instagram](https://www.instagram.com/gdidayton/)
 
 **Exercises**
 
