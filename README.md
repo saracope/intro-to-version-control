@@ -27,7 +27,7 @@ Sara Cope
 
 **Slides**
 
-Available on [GitHub](https://saracope.github.io/intro-to-version-control/)
+Available on [GitHub](https://gdidayton.github.io/intro-to-version-control)
 
 **Class connection**
 
