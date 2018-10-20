@@ -667,7 +667,7 @@ $ git status</code></pre>
           <pre><code class="command-line">
 $ git branch 
 // you should see only * master
-$ git -b checkout feature
+$ git checkout -b feature
 $ git branch
 // you should see * feature and master
           </code></pre>
@@ -677,7 +677,7 @@ $ git branch
           <h3>Okay, let's break that down</h3>
           <ul>
             <li><code class="inline">git branch</code>: tells you what branches you have, and <code class="inline">*</code> indicates which branch you are currently on</li>
-            <li><code class="inline">git -b checkout branch-name</code>: the <code class="inline">-b</code> creates a new branch, and <code class="inline">checkout</code> will hop you over to that branch</li>
+            <li><code class="inline">git checkout -b branch-name</code>: the <code class="inline">-b</code> creates a new branch, and <code class="inline">checkout</code> will hop you over to that branch</li>
           </ul>
         </section>
 
@@ -747,7 +747,7 @@ $ git branch -d feature-branch
               <li><code class ="inline">git branch </code>: lists all your branches</li>
             <li><code class ="inline">git branch <em>branch_name</em></code>: creates a new branch</li>
             <li><code class ="inline">git checkout <em>branch_name</em></code>: switch to another branch</li>
-            <li><code class ="inline">git -b checkout <em>branch_name</em></code>: creates a new branch and hops over to it</li>
+            <li><code class ="inline">git checkout -b <em>branch_name</em></code>: creates a new branch and hops over to it</li>
             <li><code class ="inline">git merge <em>branch_name</em></code>: merges branch into the current branch</li>
             <li><code class ="inline">git branch -d branch_name</code>: deletes branch</li>
         </section>
