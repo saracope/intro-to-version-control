@@ -31,7 +31,7 @@ Available on [GitHub](https://saracope.github.io/intro-to-version-control/)
 
 **Class connection**
 
-Join us on [Slack](bit.ly/gdi-dayton-slack), join the 'class--versioncontrol' channel
+Join us on [Slack](https://bit.ly/gdi-dayton-slack), join the 'class--versioncontrol' channel
 
 **Social media**
 
