@@ -382,11 +382,22 @@ $ git status</code></pre>
           <h2>Tracking Changes</h3>
         </section>
 
+        <!-- Git Structure -->
         <section>
-          <h3>Tracking States in Git</h3>
-          <p>As you make changes in your repo, you can tell Git how to treat those changes.</p>
-          <img src="images/three_stages_commit.png" style="height:550px;"/>
+          <h3>The Magical Realms of Git</h3>
+          <p>Each of the states of Git corresponds to an area of the Git repo, so here's some vocab:</p>
+          <img src="images/git_staging.png" />
         </section>
+
+        <section>
+          <h3>The Magical Realms of Git</h3>
+          <ul>
+            <li><span class="green">Working directory/tree</span>: The current version of your project where you are making changes (which is reflected in your code editor)</li>
+            <li><span class="green">Staging Area</span>: The place where you stage your files when you are readying them to commit</li>
+            <li><span class="green">Repository</span>: When you commit, Git permanently saves only the changes from your staging area to the repo's memory</li>
+          </ul>
+        </section>
+
         <section>
           <h3>Modify a file - do it with me!</h3>
           <ol>
@@ -535,22 +546,6 @@ $ git commit -m "Add capitalization function for header text"
           <h2>Commit Exercise - Do It Yourself!</h2>
           <a href="./commit_exercise.html" target="_blank">Click here for the exercise!</a>
         </section>
-
-        <!-- Git Structure -->
-        <section>
-          <h3>The Magical Realms of Git</h3>
-          <p>Each of the states of Git corresponds to an area of the Git repo, so here's some vocab:</p>
-          <img src="images/git_staging.png" />
-        </section>
-
-        <section>
-          <h3>The Magical Realms of Git</h3>
-          <ul>
-            <li><span class="green">Working directory/tree</span>: The current version of your project where you are making changes (which is reflected in your code editor)</li>
-            <li><span class="green">Staging Area</span>: The place where you stage your files when you are readying them to commit</li>
-            <li><span class="green">Repository</span>: When you commit, Git permanently saves only the changes from your staging area to the repo's memory</li>
-          </ul>
-        </section>
        
         <!-- Undoing changes -->
         <section>
@@ -614,7 +609,6 @@ $ git status</code></pre>
         <section>
           <h3>Scenario 3b: Uncommitting, but you don't want to keep any changes, period 🔥</h3>
           <p class="fragment">You realize you don't want any of the code in your previous commit, so just getting rid of that commit completely</p>
-          <p class="fragment">You still have the change in the staging area for kitten.txt</p>
           <pre><code class="command-line fragment">$ git add kitten.txt
 $ git status
 $ git commit -m "Make changes to kitten text file"
@@ -673,7 +667,7 @@ $ git status</code></pre>
           <pre><code class="command-line">
 $ git branch 
 // you should see only * master
-$ git -b checkout feature
+$ git checkout -b feature
 $ git branch
 // you should see * feature and master
           </code></pre>
@@ -683,7 +677,7 @@ $ git branch
           <h3>Okay, let's break that down</h3>
           <ul>
             <li><code class="inline">git branch</code>: tells you what branches you have, and <code class="inline">*</code> indicates which branch you are currently on</li>
-            <li><code class="inline">git -b checkout branch-name</code>: the <code class="inline">-b</code> creates a new branch, and <code class="inline">checkout</code> will hop you over to that branch</li>
+            <li><code class="inline">git checkout -b branch-name</code>: the <code class="inline">-b</code> creates a new branch, and <code class="inline">checkout</code> will hop you over to that branch</li>
           </ul>
         </section>
 
@@ -753,7 +747,7 @@ $ git branch -d feature-branch
               <li><code class ="inline">git branch </code>: lists all your branches</li>
             <li><code class ="inline">git branch <em>branch_name</em></code>: creates a new branch</li>
             <li><code class ="inline">git checkout <em>branch_name</em></code>: switch to another branch</li>
-            <li><code class ="inline">git -b checkout <em>branch_name</em></code>: creates a new branch and hops over to it</li>
+            <li><code class ="inline">git checkout -b <em>branch_name</em></code>: creates a new branch and hops over to it</li>
             <li><code class ="inline">git merge <em>branch_name</em></code>: merges branch into the current branch</li>
             <li><code class ="inline">git branch -d branch_name</code>: deletes branch</li>
         </section>

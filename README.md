@@ -27,11 +27,11 @@ Sara Cope
 
 **Slides**
 
-Available on [GitHub](https://saracope.github.io/intro-to-version-control/)
+Available on [GitHub](https://gdidayton.github.io/intro-to-version-control)
 
 **Class connection**
 
-Join us on [Slack](bit.ly/gdi-dayton-slack), join the 'class--versioncontrol' channel
+Join us on [Slack](https://join.slack.com/t/gdidayton/shared_invite/enQtNDYwMTQ5Njk0OTk2LWJhYTk0MDkxOGM2OGEyNjE0ZjAwOTNiNDdhNWRhZGIzNTMzMmFmYzgzYzgzMzk5ZTQ1N2Y0ZGM4ZDBiZGZkZmQ), join the 'class--versioncontrol' channel
 
 **Social media**
 
